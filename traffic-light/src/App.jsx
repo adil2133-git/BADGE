@@ -21,7 +21,7 @@ function App() {
     <div style={{background: "black", width: 60, padding: 6, marginLeft: 700}}>
       {lights.map((light, i) => (
         <div 
-        key={light.color}
+        key={light.color}  
         style={{
             backgroundColor: i === index ? light.color : "white",
             width: 50,
